@@ -1,0 +1,25 @@
+{
+  "name": "weonweb",
+  "version": "1.0.0",
+  "description": "A all in one web dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsaddicts/weonweb.git"
+  },
+  "author": "Manoj Singh Negi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsaddicts/weonweb/issues"
+  },
+  "homepage": "https://github.com/jsaddicts/weonweb#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "material-ui": "^0.18.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
