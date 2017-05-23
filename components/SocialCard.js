@@ -12,7 +12,10 @@ const style = {
 export default class SocialCard extends React.Component {
 	render () {
 		return (
-			<Paper style={style} zDepth={1} />
+			<Paper style={style} zDepth={1}>
+				{this.props.Icon}
+				{this.props.content}
+			</Paper>
 		)
 	}
 }
